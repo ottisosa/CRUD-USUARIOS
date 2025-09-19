@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Usuarios</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="modificar.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../CREAR/crear.html">Crear Usuario</a>
+        <a href="../ELIMINAR/eliminar.html">Eliminar Usuario</a>
+        <a href="../OBTENER/obtener.html">Obtener Usuario</a>
+        <a href="modificar.html">Modificar Usuario</a>
+    </header>
+    <main class="mainModificar">
+        <div>
+            <form action="" method="post" name="form" id="formularioModificar">
+                <label for="ci">CI:</label>
+                <input class="aa" id="ci" name="ci" readonly><br><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br><br>
+                <input type="submit" value="Modificar">
+
+        </div>
+        
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>CI</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                    </tr>
+
+                </thead>
+                <tbody id="TablaUsuario">
+
+                </tbody>
+
+
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
